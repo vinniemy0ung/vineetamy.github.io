@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Tamil&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/img1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 85%;
+}
+
+.firstHalf{
+    width: 90%
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 10%;
+    size: 40px 40px;
+}
+
+.btn{
+    padding: 7px 14px;
+    margin: 5px 0;
+    border: 1px solid white;
+    border-radius: 6px;
+    background: none;
+    color: azure;
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.section{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 95%;
+    margin: auto;
+    font-family: 'Tiro Tamil', serif;
+
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+
+.paras{
+    padding: 0 65px;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
